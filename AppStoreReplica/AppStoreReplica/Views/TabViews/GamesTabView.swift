@@ -26,6 +26,7 @@ struct GamesTabView: View {
       .navigationBarTitle("Games")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     }
+    .navigationViewStyle(StackNavigationViewStyle())
     .tabItem {
       Image(systemName: "keyboard")
       Text("Games")

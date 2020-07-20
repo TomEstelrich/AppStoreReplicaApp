@@ -26,6 +26,8 @@
 		C9A128EA24C5DECC008A54D5 /* AccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E924C5DECC008A54D5 /* AccountButton.swift */; };
 		C9A128ED24C5E377008A54D5 /* DismmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128EC24C5E377008A54D5 /* DismmissButton.swift */; };
 		C9D4281424C5000800E575A5 /* MultipleAppGroupHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4281324C5000800E575A5 /* MultipleAppGroupHeaderView.swift */; };
+		C9D91B2824C625AC00DB0008 /* RecentLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D91B2724C625AC00DB0008 /* RecentLinksView.swift */; };
+		C9D91B2A24C625CC00DB0008 /* SuggestedAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D91B2924C625CC00DB0008 /* SuggestedAppsView.swift */; };
 		C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */; };
 		C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */; };
 		C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */; };
@@ -54,6 +56,8 @@
 		C9A128E924C5DECC008A54D5 /* AccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountButton.swift; sourceTree = "<group>"; };
 		C9A128EC24C5E377008A54D5 /* DismmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismmissButton.swift; sourceTree = "<group>"; };
 		C9D4281324C5000800E575A5 /* MultipleAppGroupHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAppGroupHeaderView.swift; sourceTree = "<group>"; };
+		C9D91B2724C625AC00DB0008 /* RecentLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentLinksView.swift; sourceTree = "<group>"; };
+		C9D91B2924C625CC00DB0008 /* SuggestedAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedAppsView.swift; sourceTree = "<group>"; };
 		C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationLink.swift; sourceTree = "<group>"; };
 		C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineNavigationLink.swift; sourceTree = "<group>"; };
 		C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppButton.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */,
 				C98A3B2C24C4F4A8009387D3 /* AppView.swift */,
 				C98A3B2E24C4F8CB009387D3 /* HeaderView.swift */,
+				C9D91B2724C625AC00DB0008 /* RecentLinksView.swift */,
+				C9D91B2924C625CC00DB0008 /* SuggestedAppsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,12 +282,14 @@
 				C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */,
 				C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */,
 				C98A3B0C24C4E018009387D3 /* AppMainView.swift in Sources */,
+				C9D91B2824C625AC00DB0008 /* RecentLinksView.swift in Sources */,
 				C9D4281424C5000800E575A5 /* MultipleAppGroupHeaderView.swift in Sources */,
 				C98A3B2224C4F31F009387D3 /* AppsTabView.swift in Sources */,
 				C98A3B2F24C4F8CB009387D3 /* HeaderView.swift in Sources */,
 				C98A3B2624C4F364009387D3 /* SearchTabView.swift in Sources */,
 				C95A19BE24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift in Sources */,
 				C98A3B2B24C4F490009387D3 /* MultipleAppGroupView.swift in Sources */,
+				C9D91B2A24C625CC00DB0008 /* SuggestedAppsView.swift in Sources */,
 				C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */,
 				C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */,
 				C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */,
