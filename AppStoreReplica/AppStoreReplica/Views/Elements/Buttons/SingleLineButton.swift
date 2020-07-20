@@ -19,8 +19,9 @@ struct SingleLineButton: View {
 }
 
 
-//struct SingleLineButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SingleLineButton()
-//    }
-//}
+struct SingleLineButton_Previews: PreviewProvider {
+  static var previews: some View {
+    SingleLineButton(isPresented: false, title: "GET")
+      .previewLayout(.sizeThatFits)
+  }
+}

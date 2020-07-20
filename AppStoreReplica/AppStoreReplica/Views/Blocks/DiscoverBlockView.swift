@@ -2,7 +2,7 @@
 import SwiftUI
 
 
-struct RecentLinksView: View {
+struct DiscoverBlockView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Text("Discover")
@@ -27,6 +27,6 @@ struct RecentLinksView: View {
 
 struct RecentLinksView_Previews: PreviewProvider {
     static var previews: some View {
-        RecentLinksView()
+        DiscoverBlockView()
     }
 }

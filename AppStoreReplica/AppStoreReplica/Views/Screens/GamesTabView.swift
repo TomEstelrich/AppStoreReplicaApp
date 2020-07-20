@@ -7,21 +7,23 @@ struct GamesTabView: View {
   
   var body: some View {
     NavigationView {
-      ScrollView {
-        Divider()
-        SingleAppGroupView()
-        
-        Divider()
-          .padding(.vertical, 5)
-        
-        MultipleAppGroupHeaderView(headerTitle: "What to Play This Week")
-        MultipleAppGroupView()
-        
-        Divider()
-          .padding(.vertical, 5)
-        
-        MultipleAppGroupHeaderView(headerTitle: "New Games We Love")
-        MultipleAppGroupView()
+      GeometryReader { geometry in
+        ScrollView {
+          Divider()
+          SingleAppGroupView()
+          
+          Divider()
+            .padding(.vertical, 5)
+          
+          MultipleAppGroupHeaderView(headerTitle: "What to Play This Week")
+          MultipleAppGroupView(geometry: geometry)
+          
+          Divider()
+            .padding(.vertical, 5)
+          
+          MultipleAppGroupHeaderView(headerTitle: "New Games We Love")
+          MultipleAppGroupView(geometry: geometry)
+        }
       }
       .navigationBarTitle("Games")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))

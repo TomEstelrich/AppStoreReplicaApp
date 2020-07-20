@@ -2,7 +2,7 @@
 import SwiftUI
 
 
-struct HeaderView: View {
+struct MainHeaderView: View {
   @State var isAccountViewPresented = false
   
   var body: some View {
@@ -32,6 +32,6 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
   static var previews: some View {
-    HeaderView()
+    MainHeaderView()
   }
 }

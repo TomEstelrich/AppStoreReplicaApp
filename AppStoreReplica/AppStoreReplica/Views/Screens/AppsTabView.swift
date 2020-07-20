@@ -4,10 +4,12 @@ import SwiftUI
 
 struct AppsTabView: View {
   var body: some View {
-    ScrollView {
-//      HeaderView()
-      SingleAppGroupView()
-      MultipleAppGroupView()
+    GeometryReader { geometry in
+      ScrollView {
+        //      HeaderView()
+        SingleAppGroupView()
+        MultipleAppGroupView(geometry: geometry)
+      }
     }
     .tabItem {
       Image(systemName: "square.stack.3d.up.fill")

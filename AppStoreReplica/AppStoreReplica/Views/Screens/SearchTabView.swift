@@ -10,10 +10,9 @@ struct SearchTabView: View {
   var body: some View {
     NavigationView {
       ScrollView {
+        DiscoverBlockView()
         Spacer()
-        RecentLinksView()
-        Spacer()
-        SuggestedAppsView()
+        SuggestedAppsBlockView()
       }
       .navigationBarTitle("Search")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))

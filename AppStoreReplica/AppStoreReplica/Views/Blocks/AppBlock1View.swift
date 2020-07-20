@@ -2,7 +2,7 @@
 import SwiftUI
 
 
-struct AppView: View {
+struct AppBlock1View: View {
   var body: some View {
     HStack {
       RoundedRectangle(cornerRadius: 8, style: .continuous)
@@ -41,6 +41,6 @@ struct AppView: View {
 
 struct AppView_Previews: PreviewProvider {
   static var previews: some View {
-    AppView()
+    AppBlock1View()
   }
 }

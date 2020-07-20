@@ -21,8 +21,9 @@ struct AccountButton: View {
 }
 
 
-//struct AccountButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//      AccountButton(isAccountViewPresented: false)
-//    }
-//}
+struct AccountButton_Previews: PreviewProvider {
+    static var previews: some View {
+      AccountButton(isAccountViewPresented: .constant(false))
+        .previewLayout(.sizeThatFits)
+    }
+}

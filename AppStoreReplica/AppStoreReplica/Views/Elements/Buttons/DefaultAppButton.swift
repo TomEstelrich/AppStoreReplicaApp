@@ -11,7 +11,6 @@ struct DefaultAppButton: View {
       .padding(.vertical, 6)
       .background(Color.blue)
       .clipShape(Capsule())
-      .padding(.bottom, 5)
   }
 }
 
@@ -19,5 +18,6 @@ struct DefaultAppButton: View {
 struct DefaultAppButton_Previews: PreviewProvider {
     static var previews: some View {
         DefaultAppButton()
+          .previewLayout(.sizeThatFits)
     }
 }

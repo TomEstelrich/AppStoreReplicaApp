@@ -17,6 +17,6 @@ struct DismissButton: View {
 
 //struct DismmissButton_Previews: PreviewProvider {
 //    static var previews: some View {
-//        DismmissButton()
+//      DismissButton(buttonTitle: "Done", presentationMode: self)
 //    }
 //}

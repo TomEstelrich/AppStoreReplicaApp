@@ -41,8 +41,8 @@ struct RecentlyUpdatedAppsList: View {
 }
 
 
-//struct RecentlyUpdatedAppsList_Previews: PreviewProvider {
-//    static var previews: some View {
-//        RecentlyUpdatedAppsList()
-//    }
-//}
+struct RecentlyUpdatedAppsList_Previews: PreviewProvider {
+    static var previews: some View {
+      RecentlyUpdatedAppsList(title: "Title", date: "Today")
+    }
+}

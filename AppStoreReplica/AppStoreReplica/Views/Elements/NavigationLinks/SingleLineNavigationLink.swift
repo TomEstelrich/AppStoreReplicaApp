@@ -18,8 +18,9 @@ struct SingleLineNavigationLink: View {
 }
 
 
-//struct SingleLineNavigationLink_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SingleLineNavigationLink()
-//    }
-//}
+struct SingleLineNavigationLink_Previews: PreviewProvider {
+    static var previews: some View {
+      SingleLineNavigationLink(text: "Description")
+        .previewLayout(.sizeThatFits)
+    }
+}

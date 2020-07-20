@@ -2,7 +2,7 @@
 import SwiftUI
 
 
-struct SuggestedAppsView: View {
+struct SuggestedAppsBlockView: View {
   var body: some View {
     VStack {
       Text("Suggested")
@@ -43,6 +43,6 @@ struct SuggestedAppsView: View {
 
 struct SuggestedAppsView_Previews: PreviewProvider {
     static var previews: some View {
-        SuggestedAppsView()
+        SuggestedAppsBlockView()
     }
 }
