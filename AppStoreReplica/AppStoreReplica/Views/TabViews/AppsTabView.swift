@@ -4,11 +4,15 @@ import SwiftUI
 
 struct AppsTabView: View {
   var body: some View {
-    Text("Apps view")
-      .tabItem {
-        Image(systemName: "square.stack.3d.up.fill")
-        Text("Apps")
-      }
+    ScrollView {
+//      HeaderView()
+      SingleAppGroupView()
+      MultipleAppGroupView()
+    }
+    .tabItem {
+      Image(systemName: "square.stack.3d.up.fill")
+      Text("Apps")
+    }
   }
 }
 

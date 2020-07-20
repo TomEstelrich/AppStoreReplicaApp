@@ -34,10 +34,6 @@ struct AppView: View {
           .font(.system(size: 8))
           .foregroundColor(.secondary)
       }
-      
-      
-//      Image(systemName: "icloud.and.arrow.down")
-//        .font(.headline)
     }
   }
 }
