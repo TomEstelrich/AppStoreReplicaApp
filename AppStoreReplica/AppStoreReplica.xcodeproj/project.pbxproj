@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */; };
+		C95A19BE24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A19BD24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift */; };
 		C98A3B0A24C4E018009387D3 /* AppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B0924C4E018009387D3 /* AppStoreApp.swift */; };
 		C98A3B0C24C4E018009387D3 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B0B24C4E018009387D3 /* AppMainView.swift */; };
 		C98A3B0E24C4E019009387D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98A3B0D24C4E019009387D3 /* Assets.xcassets */; };
@@ -20,10 +22,19 @@
 		C98A3B2B24C4F490009387D3 /* MultipleAppGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */; };
 		C98A3B2D24C4F4A8009387D3 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2C24C4F4A8009387D3 /* AppView.swift */; };
 		C98A3B2F24C4F8CB009387D3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2E24C4F8CB009387D3 /* HeaderView.swift */; };
+		C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E724C5DC88008A54D5 /* AccountView.swift */; };
+		C9A128EA24C5DECC008A54D5 /* AccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E924C5DECC008A54D5 /* AccountButton.swift */; };
+		C9A128ED24C5E377008A54D5 /* DismmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128EC24C5E377008A54D5 /* DismmissButton.swift */; };
 		C9D4281424C5000800E575A5 /* MultipleAppGroupHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4281324C5000800E575A5 /* MultipleAppGroupHeaderView.swift */; };
+		C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */; };
+		C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */; };
+		C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */; };
+		C9F63BAE24C5F29A00ECA58B /* AppIconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BAD24C5F29A00ECA58B /* AppIconImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineButton.swift; sourceTree = "<group>"; };
+		C95A19BD24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyUpdatedAppsList.swift; sourceTree = "<group>"; };
 		C98A3B0624C4E018009387D3 /* AppStoreReplica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreReplica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98A3B0924C4E018009387D3 /* AppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreApp.swift; sourceTree = "<group>"; };
 		C98A3B0B24C4E018009387D3 /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
@@ -39,7 +50,14 @@
 		C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAppGroupView.swift; sourceTree = "<group>"; };
 		C98A3B2C24C4F4A8009387D3 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		C98A3B2E24C4F8CB009387D3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C9A128E724C5DC88008A54D5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		C9A128E924C5DECC008A54D5 /* AccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountButton.swift; sourceTree = "<group>"; };
+		C9A128EC24C5E377008A54D5 /* DismmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismmissButton.swift; sourceTree = "<group>"; };
 		C9D4281324C5000800E575A5 /* MultipleAppGroupHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAppGroupHeaderView.swift; sourceTree = "<group>"; };
+		C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationLink.swift; sourceTree = "<group>"; };
+		C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineNavigationLink.swift; sourceTree = "<group>"; };
+		C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppButton.swift; sourceTree = "<group>"; };
+		C9F63BAD24C5F29A00ECA58B /* AppIconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C95A19BF24C5FB730055BDA1 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				C95A19BD24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
 		C98A3AFD24C4E018009387D3 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				C98A3B1C24C4F2C3009387D3 /* TabViews */,
+				C98A3B2724C4F45F009387D3 /* Views */,
+				C9F63BAF24C5F2BA00ECA58B /* Images */,
+				C9A128EB24C5DF18008A54D5 /* Buttons */,
+				C9F63BA824C5EAC000ECA58B /* NavigationLinks */,
+				C95A19BF24C5FB730055BDA1 /* Lists */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,21 +136,21 @@
 				C98A3B2124C4F31F009387D3 /* AppsTabView.swift */,
 				C98A3B2324C4F348009387D3 /* ArcadeTabView.swift */,
 				C98A3B2524C4F364009387D3 /* SearchTabView.swift */,
-				C98A3B2724C4F45F009387D3 /* Reusable */,
 			);
 			path = TabViews;
 			sourceTree = "<group>";
 		};
-		C98A3B2724C4F45F009387D3 /* Reusable */ = {
+		C98A3B2724C4F45F009387D3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C9A128E724C5DC88008A54D5 /* AccountView.swift */,
 				C98A3B2824C4F476009387D3 /* SingleAppGroupView.swift */,
 				C9D4281324C5000800E575A5 /* MultipleAppGroupHeaderView.swift */,
 				C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */,
 				C98A3B2C24C4F4A8009387D3 /* AppView.swift */,
 				C98A3B2E24C4F8CB009387D3 /* HeaderView.swift */,
 			);
-			path = Reusable;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C98A3B3024C4F90E009387D3 /* Resources */ = {
@@ -137,6 +168,34 @@
 				C98A3B0924C4E018009387D3 /* AppStoreApp.swift */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C9A128EB24C5DF18008A54D5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C9A128E924C5DECC008A54D5 /* AccountButton.swift */,
+				C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */,
+				C9A128EC24C5E377008A54D5 /* DismmissButton.swift */,
+				C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		C9F63BA824C5EAC000ECA58B /* NavigationLinks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */,
+				C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */,
+			);
+			path = NavigationLinks;
+			sourceTree = "<group>";
+		};
+		C9F63BAF24C5F2BA00ECA58B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9F63BAD24C5F29A00ECA58B /* AppIconImage.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,14 +271,23 @@
 				C98A3B2424C4F348009387D3 /* ArcadeTabView.swift in Sources */,
 				C98A3B1E24C4F2DD009387D3 /* TodayTabView.swift in Sources */,
 				C98A3B2D24C4F4A8009387D3 /* AppView.swift in Sources */,
+				C9F63BAE24C5F29A00ECA58B /* AppIconImage.swift in Sources */,
 				C98A3B2024C4F304009387D3 /* GamesTabView.swift in Sources */,
+				C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */,
+				C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */,
 				C98A3B0C24C4E018009387D3 /* AppMainView.swift in Sources */,
 				C9D4281424C5000800E575A5 /* MultipleAppGroupHeaderView.swift in Sources */,
 				C98A3B2224C4F31F009387D3 /* AppsTabView.swift in Sources */,
 				C98A3B2F24C4F8CB009387D3 /* HeaderView.swift in Sources */,
 				C98A3B2624C4F364009387D3 /* SearchTabView.swift in Sources */,
+				C95A19BE24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift in Sources */,
 				C98A3B2B24C4F490009387D3 /* MultipleAppGroupView.swift in Sources */,
+				C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */,
+				C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */,
+				C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */,
+				C9A128ED24C5E377008A54D5 /* DismmissButton.swift in Sources */,
 				C98A3B0A24C4E018009387D3 /* AppStoreApp.swift in Sources */,
+				C9A128EA24C5DECC008A54D5 /* AccountButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

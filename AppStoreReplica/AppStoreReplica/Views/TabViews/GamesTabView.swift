@@ -3,6 +3,8 @@ import SwiftUI
 
 
 struct GamesTabView: View {
+  @State var isAccountViewPresented = false
+  
   var body: some View {
     NavigationView {
       ScrollView {
@@ -22,12 +24,7 @@ struct GamesTabView: View {
         MultipleAppGroupView()
       }
       .navigationBarTitle("Games")
-      .navigationBarItems(trailing:
-                              Image(systemName: "person.circle.fill")
-                                .foregroundColor(.secondary)
-                                .font(.title)
-                                .clipShape(Circle())
-      )
+      .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     }
     .tabItem {
       Image(systemName: "keyboard")
@@ -42,22 +39,3 @@ struct GamesTabView_Previews: PreviewProvider {
     GamesTabView()
   }
 }
-
-//
-//struct SingleAppGroupHeaderView: View {
-//  var body: some View {
-//    // Header
-//    HStack {
-//      Text("What to play this week")
-//        .font(.title3)
-//        .bold()
-//        .padding(.leading)
-//
-//      Spacer()
-//
-//      Button("See all") {}
-//        .font(.body)
-//        .padding(.trailing)
-//    }
-//  }
-//}

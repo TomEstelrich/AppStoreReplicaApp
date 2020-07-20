@@ -11,7 +11,6 @@ struct AppMainView: View {
       ArcadeTabView()
       SearchTabView()
     }
-//    .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
   }
 }
 

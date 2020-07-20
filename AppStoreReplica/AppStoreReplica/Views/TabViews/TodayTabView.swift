@@ -3,12 +3,11 @@ import SwiftUI
 
 
 struct TodayTabView: View {
+  
   var body: some View {
     ScrollView {
       HeaderView()
-    
       SingleAppGroupView()
-      
       MultipleAppGroupView()
     }
     .tabItem {
@@ -24,3 +23,6 @@ struct TodayTabView_Previews: PreviewProvider {
     TodayTabView()
   }
 }
+
+
+

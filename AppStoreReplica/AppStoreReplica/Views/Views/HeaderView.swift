@@ -3,6 +3,8 @@ import SwiftUI
 
 
 struct HeaderView: View {
+  @State var isAccountViewPresented = false
+  
   var body: some View {
     VStack {
       Text("Sunday, July 19")
@@ -19,10 +21,8 @@ struct HeaderView: View {
         
         Spacer()
         
-        Image(systemName: "person.circle.fill")
-          .foregroundColor(.secondary)
+        AccountButton(isAccountViewPresented: $isAccountViewPresented)
           .padding(.trailing)
-          .font(.title)
       }
       .frame(maxWidth: .infinity, alignment: .leading)
     }
