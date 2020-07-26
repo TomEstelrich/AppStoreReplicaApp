@@ -3,7 +3,7 @@ import SwiftUI
 
 
 struct TodayTabBlock1View: View {
-  let geometry: GeometryProxy
+//  let geometry: GeometryProxy
   
   var body: some View {
     VStack(alignment: .leading) {
@@ -23,7 +23,7 @@ struct TodayTabBlock1View: View {
         .padding(15)
       
     }
-    .frame(width: geometry.size.width - 32, height: geometry.size.width * 1.1)
+    .frame(width: UIScreen.main.bounds.width - 32, height: UIScreen.main.bounds.width * 1.1)
     .background(Color.gray)
     .cornerRadius(20)
     .padding(.vertical, 8)
@@ -31,8 +31,8 @@ struct TodayTabBlock1View: View {
 }
 
 
-//struct TodayTabBlock1View_Previews: PreviewProvider {
-//    static var previews: some View {
-//      TodayTabBlock1View()
-//    }
-//}
+struct TodayTabBlock1View_Previews: PreviewProvider {
+    static var previews: some View {
+      TodayTabBlock1View()
+    }
+}

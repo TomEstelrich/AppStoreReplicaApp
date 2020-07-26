@@ -8,9 +8,9 @@ struct TodayTabView: View {
     GeometryReader { geometry in
       ScrollView {
         MainHeaderView()
-        TodayTabBlock1View(geometry: geometry)
-        TodayTabBlock2View(geometry: geometry)
-        TodayTabBlock3View(geometry: geometry)
+        TodayTabBlock1View()
+        TodayTabBlock2View()
+        TodayTabBlock3View()
       }
     }
     .tabItem {

@@ -7,7 +7,6 @@ struct AppIconImage: View {
     Image("DefaultAppIcon")
       .resizable()
       .scaledToFit()
-      .cornerRadius(13)
 //      .frame(width: 60, height: 60)
   }
 }

@@ -3,7 +3,7 @@ import SwiftUI
 
 
 struct MultipleAppGroupView: View {
-  let geometry: GeometryProxy
+//  let geometry: GeometryProxy
   
   var body: some View {
     TabView {
@@ -16,14 +16,17 @@ struct MultipleAppGroupView: View {
       }
       .padding()
     }
-    .frame(width: geometry.size.width, height: 200)
+    .frame(width: UIScreen.main.bounds.width, height: 200)
     .tabViewStyle(PageTabViewStyle())
   }
 }
 
 
-//struct MultipleAppGroupView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MultipleAppGroupView()
-//    }
-//}
+struct MultipleAppGroupView_Previews: PreviewProvider {
+    static var previews: some View {
+        MultipleAppGroupView()
+    }
+}
+
+
+

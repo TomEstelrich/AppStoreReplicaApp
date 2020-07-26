@@ -3,13 +3,18 @@ import SwiftUI
 
 
 struct AppsTabView: View {
+  @State var isAccountViewPresented = false
+  
   var body: some View {
-    GeometryReader { geometry in
+    NavigationView {
       ScrollView {
+        Divider()
         //      HeaderView()
         SingleAppGroupView()
-        MultipleAppGroupView(geometry: geometry)
+        MultipleAppGroupView()
       }
+      .navigationBarTitle("Apps")
+      .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     }
     .tabItem {
       Image(systemName: "square.stack.3d.up.fill")

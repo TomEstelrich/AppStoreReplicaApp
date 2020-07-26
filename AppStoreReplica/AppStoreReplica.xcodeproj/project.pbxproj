@@ -23,6 +23,9 @@
 		C98A3B2B24C4F490009387D3 /* MultipleAppGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */; };
 		C98A3B2D24C4F4A8009387D3 /* AppBlock1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2C24C4F4A8009387D3 /* AppBlock1View.swift */; };
 		C98A3B2F24C4F8CB009387D3 /* MainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2E24C4F8CB009387D3 /* MainHeaderView.swift */; };
+		C999AF7024CE44E400EB346A /* QuickLinksBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */; };
+		C999AF7224CE468E00EB346A /* DefaultButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF7124CE468E00EB346A /* DefaultButtonView.swift */; };
+		C999AF7424CE490600EB346A /* TermsAndConditionsBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF7324CE490600EB346A /* TermsAndConditionsBlockView.swift */; };
 		C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E724C5DC88008A54D5 /* AccountView.swift */; };
 		C9A128EA24C5DECC008A54D5 /* AccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E924C5DECC008A54D5 /* AccountButton.swift */; };
 		C9A128ED24C5E377008A54D5 /* DismmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128EC24C5E377008A54D5 /* DismmissButton.swift */; };
@@ -33,6 +36,12 @@
 		C9D91B2F24C6470700DB0008 /* TodayTabBlock1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D91B2E24C6470700DB0008 /* TodayTabBlock1View.swift */; };
 		C9D91B3224C6477800DB0008 /* TodayTabBlock2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D91B3124C6477800DB0008 /* TodayTabBlock2View.swift */; };
 		C9D91B3424C6479900DB0008 /* TodayTabBlock3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D91B3324C6479800DB0008 /* TodayTabBlock3View.swift */; };
+		C9E7620F24CE29F60029264E /* ItemDetailsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7620E24CE29F60029264E /* ItemDetailsTextView.swift */; };
+		C9E7621124CE2A500029264E /* ItemTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621024CE2A500029264E /* ItemTitleTextView.swift */; };
+		C9E7621424CE326D0029264E /* AppBlock2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621324CE326D0029264E /* AppBlock2View.swift */; };
+		C9E7621624CE38C30029264E /* MultipleAppBlock2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621524CE38C30029264E /* MultipleAppBlock2View.swift */; };
+		C9E7621824CE41050029264E /* SingleLineIconAndButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621724CE41050029264E /* SingleLineIconAndButtonView.swift */; };
+		C9E7621A24CE42F20029264E /* MultipleSingleLineIconAndButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621924CE42F20029264E /* MultipleSingleLineIconAndButtonView.swift */; };
 		C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */; };
 		C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */; };
 		C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */; };
@@ -58,6 +67,9 @@
 		C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAppGroupView.swift; sourceTree = "<group>"; };
 		C98A3B2C24C4F4A8009387D3 /* AppBlock1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlock1View.swift; sourceTree = "<group>"; };
 		C98A3B2E24C4F8CB009387D3 /* MainHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeaderView.swift; sourceTree = "<group>"; };
+		C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksBlock.swift; sourceTree = "<group>"; };
+		C999AF7124CE468E00EB346A /* DefaultButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonView.swift; sourceTree = "<group>"; };
+		C999AF7324CE490600EB346A /* TermsAndConditionsBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsBlockView.swift; sourceTree = "<group>"; };
 		C9A128E724C5DC88008A54D5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		C9A128E924C5DECC008A54D5 /* AccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountButton.swift; sourceTree = "<group>"; };
 		C9A128EC24C5E377008A54D5 /* DismmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismmissButton.swift; sourceTree = "<group>"; };
@@ -68,6 +80,12 @@
 		C9D91B2E24C6470700DB0008 /* TodayTabBlock1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTabBlock1View.swift; sourceTree = "<group>"; };
 		C9D91B3124C6477800DB0008 /* TodayTabBlock2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTabBlock2View.swift; sourceTree = "<group>"; };
 		C9D91B3324C6479800DB0008 /* TodayTabBlock3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTabBlock3View.swift; sourceTree = "<group>"; };
+		C9E7620E24CE29F60029264E /* ItemDetailsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsTextView.swift; sourceTree = "<group>"; };
+		C9E7621024CE2A500029264E /* ItemTitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTitleTextView.swift; sourceTree = "<group>"; };
+		C9E7621324CE326D0029264E /* AppBlock2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlock2View.swift; sourceTree = "<group>"; };
+		C9E7621524CE38C30029264E /* MultipleAppBlock2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAppBlock2View.swift; sourceTree = "<group>"; };
+		C9E7621724CE41050029264E /* SingleLineIconAndButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineIconAndButtonView.swift; sourceTree = "<group>"; };
+		C9E7621924CE42F20029264E /* MultipleSingleLineIconAndButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSingleLineIconAndButtonView.swift; sourceTree = "<group>"; };
 		C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationLink.swift; sourceTree = "<group>"; };
 		C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineNavigationLink.swift; sourceTree = "<group>"; };
 		C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppButton.swift; sourceTree = "<group>"; };
@@ -184,6 +202,8 @@
 				C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */,
 				C9A128EC24C5E377008A54D5 /* DismmissButton.swift */,
 				C9F63BAB24C5F1A000ECA58B /* DefaultAppButton.swift */,
+				C9E7621724CE41050029264E /* SingleLineIconAndButtonView.swift */,
+				C999AF7124CE468E00EB346A /* DefaultButtonView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -197,13 +217,27 @@
 				C9D91B3324C6479800DB0008 /* TodayTabBlock3View.swift */,
 				C98A3B2824C4F476009387D3 /* SingleAppGroupView.swift */,
 				C98A3B2C24C4F4A8009387D3 /* AppBlock1View.swift */,
+				C9E7621324CE326D0029264E /* AppBlock2View.swift */,
 				C9D91B2724C625AC00DB0008 /* DiscoverBlockView.swift */,
+				C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */,
 				C9D91B2924C625CC00DB0008 /* SuggestedAppsBlockView.swift */,
 				C9D91B2B24C643F300DB0008 /* SingleCellTodayTabView.swift */,
+				C9E7621524CE38C30029264E /* MultipleAppBlock2View.swift */,
 				C9D4281324C5000800E575A5 /* MultipleAppGroupHeaderView.swift */,
 				C98A3B2A24C4F490009387D3 /* MultipleAppGroupView.swift */,
+				C9E7621924CE42F20029264E /* MultipleSingleLineIconAndButtonView.swift */,
+				C999AF7324CE490600EB346A /* TermsAndConditionsBlockView.swift */,
 			);
 			path = Blocks;
+			sourceTree = "<group>";
+		};
+		C9E7621224CE2A7C0029264E /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7621024CE2A500029264E /* ItemTitleTextView.swift */,
+				C9E7620E24CE29F60029264E /* ItemDetailsTextView.swift */,
+			);
+			path = Texts;
 			sourceTree = "<group>";
 		};
 		C9F63BA824C5EAC000ECA58B /* NavigationLinks */ = {
@@ -231,6 +265,7 @@
 				C95A19BF24C5FB730055BDA1 /* Lists */,
 				C9F63BA824C5EAC000ECA58B /* NavigationLinks */,
 				C932352324CE1C5200D3839F /* SearchBars */,
+				C9E7621224CE2A7C0029264E /* Texts */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -311,17 +346,24 @@
 				C9D91B2F24C6470700DB0008 /* TodayTabBlock1View.swift in Sources */,
 				C98A3B2D24C4F4A8009387D3 /* AppBlock1View.swift in Sources */,
 				C9F63BAE24C5F29A00ECA58B /* AppIconImage.swift in Sources */,
+				C9E7621824CE41050029264E /* SingleLineIconAndButtonView.swift in Sources */,
 				C98A3B2024C4F304009387D3 /* GamesTabView.swift in Sources */,
 				C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */,
+				C9E7621124CE2A500029264E /* ItemTitleTextView.swift in Sources */,
 				C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */,
 				C98A3B0C24C4E018009387D3 /* AppMainView.swift in Sources */,
 				C9D91B2824C625AC00DB0008 /* DiscoverBlockView.swift in Sources */,
 				C9D4281424C5000800E575A5 /* MultipleAppGroupHeaderView.swift in Sources */,
+				C999AF7424CE490600EB346A /* TermsAndConditionsBlockView.swift in Sources */,
 				C98A3B2224C4F31F009387D3 /* AppsTabView.swift in Sources */,
+				C9E7621424CE326D0029264E /* AppBlock2View.swift in Sources */,
 				C9D91B3424C6479900DB0008 /* TodayTabBlock3View.swift in Sources */,
 				C98A3B2F24C4F8CB009387D3 /* MainHeaderView.swift in Sources */,
 				C98A3B2624C4F364009387D3 /* SearchTabView.swift in Sources */,
+				C999AF7024CE44E400EB346A /* QuickLinksBlock.swift in Sources */,
 				C95A19BE24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift in Sources */,
+				C999AF7224CE468E00EB346A /* DefaultButtonView.swift in Sources */,
+				C9E7621A24CE42F20029264E /* MultipleSingleLineIconAndButtonView.swift in Sources */,
 				C98A3B2B24C4F490009387D3 /* MultipleAppGroupView.swift in Sources */,
 				C9D91B2C24C643F300DB0008 /* SingleCellTodayTabView.swift in Sources */,
 				C9D91B2A24C625CC00DB0008 /* SuggestedAppsBlockView.swift in Sources */,
@@ -329,8 +371,10 @@
 				C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */,
 				C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */,
 				C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */,
+				C9E7621624CE38C30029264E /* MultipleAppBlock2View.swift in Sources */,
 				C9A128ED24C5E377008A54D5 /* DismmissButton.swift in Sources */,
 				C98A3B0A24C4E018009387D3 /* AppStoreApp.swift in Sources */,
+				C9E7620F24CE29F60029264E /* ItemDetailsTextView.swift in Sources */,
 				C9A128EA24C5DECC008A54D5 /* AccountButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
