@@ -5,17 +5,18 @@ import SwiftUI
 
 struct SearchTabView: View {
   @State var isAccountViewPresented = false
-  @State var text: String = "This is a test"
+  @State var text: String = ""
   
   var body: some View {
     NavigationView {
       ScrollView {
+        SearchBarCustom(text: $text)
         DiscoverBlockView()
         Spacer()
         SuggestedAppsBlockView()
       }
       .navigationBarTitle("Search")
-      .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
+      .navigationBarItems(leading: SearchBar(text: $text), trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     }
     .navigationViewStyle(StackNavigationViewStyle())
     .tabItem {

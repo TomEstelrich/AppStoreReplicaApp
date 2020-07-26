@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C932352224CE18D000D3839F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932352124CE18D000D3839F /* SearchBar.swift */; };
 		C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */; };
 		C95A19BE24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A19BD24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift */; };
 		C98A3B0A24C4E018009387D3 /* AppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B0924C4E018009387D3 /* AppStoreApp.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C932352124CE18D000D3839F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineButton.swift; sourceTree = "<group>"; };
 		C95A19BD24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyUpdatedAppsList.swift; sourceTree = "<group>"; };
 		C98A3B0624C4E018009387D3 /* AppStoreReplica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreReplica.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C932352324CE1C5200D3839F /* SearchBars */ = {
+			isa = PBXGroup;
+			children = (
+				C932352124CE18D000D3839F /* SearchBar.swift */,
+			);
+			path = SearchBars;
+			sourceTree = "<group>";
+		};
 		C95A19BF24C5FB730055BDA1 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +230,7 @@
 				C9F63BAF24C5F2BA00ECA58B /* Images */,
 				C95A19BF24C5FB730055BDA1 /* Lists */,
 				C9F63BA824C5EAC000ECA58B /* NavigationLinks */,
+				C932352324CE1C5200D3839F /* SearchBars */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -314,6 +325,7 @@
 				C98A3B2B24C4F490009387D3 /* MultipleAppGroupView.swift in Sources */,
 				C9D91B2C24C643F300DB0008 /* SingleCellTodayTabView.swift in Sources */,
 				C9D91B2A24C625CC00DB0008 /* SuggestedAppsBlockView.swift in Sources */,
+				C932352224CE18D000D3839F /* SearchBar.swift in Sources */,
 				C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */,
 				C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */,
 				C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */,
@@ -449,6 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AppStoreReplica/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AppStoreReplica/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -470,6 +483,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AppStoreReplica/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AppStoreReplica/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
