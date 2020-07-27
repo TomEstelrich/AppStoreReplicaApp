@@ -5,37 +5,27 @@ import SwiftUI
 struct RecentlyUpdatedAppsList: View {
   let title: String
   let date: String
-  let description: String = "Today's update is mainly about new features Displaying documents from iCloud, 'Select All' function and Flashligh instead of a flash on camera."
+  let description: String = "Release notes"
+  let range: Range<Int>
   
 
   var body: some View {
-    List(Range(0...5)) {_ in
+    ForEach(range) {_ in
       VStack {
-        HStack {
-          HStack {
-            AppIconImage()
-            VStack(alignment: .leading) {
-              Text(title)
-                .frame(width: 100, alignment: .leading)
-                .padding(.vertical, 5)
-              
-              Text(date)
-                .font(.caption)
-                .foregroundColor(Color.secondary)
-            }
-          }
-          Spacer()
-          DefaultAppButton()
-        }
+        AppSmall1Block()
         Spacer()
         HStack {
           Text(description)
             .font(.subheadline)
+          
+          Spacer()
+          
           Button("more"){}
+            .accentColor(.blue)
+            .font(.subheadline)
         }
       }
       .padding(.vertical, 10)
-      .frame(height: 130)
     }
   }
 }
@@ -43,6 +33,6 @@ struct RecentlyUpdatedAppsList: View {
 
 struct RecentlyUpdatedAppsList_Previews: PreviewProvider {
     static var previews: some View {
-      RecentlyUpdatedAppsList(title: "Title", date: "Today")
+      RecentlyUpdatedAppsList(title: "Title", date: "Today", range: Range(0...0))
     }
 }

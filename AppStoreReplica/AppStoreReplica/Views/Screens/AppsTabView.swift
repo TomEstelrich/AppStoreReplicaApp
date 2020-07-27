@@ -10,8 +10,8 @@ struct AppsTabView: View {
       ScrollView {
         Divider()
         //      HeaderView()
-        SingleAppGroupView()
-        MultipleAppGroupView()
+        AppCarouselLargeBlock()
+        AppCarouselSmallBlock()
       }
       .navigationBarTitle("Apps")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))

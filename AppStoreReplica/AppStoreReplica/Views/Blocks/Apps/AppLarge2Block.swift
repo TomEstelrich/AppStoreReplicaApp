@@ -2,22 +2,21 @@
 import SwiftUI
 
 
-struct TodayTabBlock2View: View {
-//  let geometry: GeometryProxy
-  
+struct AppLarge2Block: View {
   var body: some View {
     VStack(alignment: .leading) {
       Spacer()
-      Text("GAME OF THE DAY")
+    
+      Text("HEADLINE")
         .font(.system(size: 40))
         .fontWeight(.black)
         .foregroundColor(.white)
-        .padding(.horizontal, 16)
+        .padding(.horizontal)
 
       HStack {
-        AppIconImage()
+        RoundedRectangle(cornerRadius: 12, style: .continuous)
+          .foregroundColor(Color.gray)
           .frame(width: 50, height: 50)
-          .foregroundColor(.white)
         
         VStack(alignment: .leading) {
           Text("App name")
@@ -31,17 +30,10 @@ struct TodayTabBlock2View: View {
         Spacer()
         
         VStack {
-          Button("GET") {}
-            .font(.system(size: 12))
-            .accentColor(.white)
-            .padding(.horizontal, 18)
-            .padding(.vertical, 6)
-            .background(Color.blue)
-            .clipShape(Capsule())
-            .padding(.bottom, 5)
+          GetButton()
+            .padding(.bottom, 8)
           
-          Text("In-App Purchases")
-            .font(.system(size: 8))
+          InAppPurchasesLabel()
             .foregroundColor(.white)
         }
       }
@@ -49,8 +41,8 @@ struct TodayTabBlock2View: View {
       .background(Color.secondary)
     }
     .frame(width: UIScreen.main.bounds.width - 32, height: UIScreen.main.bounds.width * 1.1)
-    .background(Color.gray)
-    .cornerRadius(20)
+    .background(Color(UIColor.systemGray2))
+    .clipShape(RoundedRectangle(cornerRadius: 20))
     .padding(.vertical, 8)
   }
 }
@@ -58,6 +50,6 @@ struct TodayTabBlock2View: View {
 
 struct TodayTabBlock2View_Previews: PreviewProvider {
     static var previews: some View {
-        TodayTabBlock2View()
+        AppLarge2Block()
     }
 }

@@ -2,17 +2,18 @@
 import SwiftUI
 
 
-struct AppBlock2View: View {
+struct AppMediumBlock: View {
   var body: some View {
     VStack(alignment: .center) {
-      AppIconImage()
-        .cornerRadius(35)
+      RoundedRectangle(cornerRadius: 32, style: .continuous)
+        .foregroundColor(Color.gray)
+        .aspectRatio(CGSize(width: 1, height: 1), contentMode: .fit)
       
-      ItemTitleTextView(text: "Madded NFL 21 Mobile")
+      ItemTitleTextView(text: "App title")
         .lineLimit(1)
         .frame(width: 160)
       
-      ItemDetailsTextView(text: "Team up, Game & Competition")
+      ItemDetailsTextView(text: "Description")
         .lineLimit(1)
         .frame(width: 160)
     }
@@ -21,7 +22,7 @@ struct AppBlock2View: View {
 
 struct AppBlock2View_Previews: PreviewProvider {
   static var previews: some View {
-    AppBlock2View()
+    AppMediumBlock()
   }
 }
 

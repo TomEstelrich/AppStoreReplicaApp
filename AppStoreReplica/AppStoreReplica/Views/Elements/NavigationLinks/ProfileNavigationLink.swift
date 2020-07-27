@@ -29,7 +29,7 @@ struct ProfileNavigationLink: View {
 
 struct ProfileNavigationLink_Previews: PreviewProvider {
     static var previews: some View {
-      ProfileNavigationLink(username: "Bartolome Estelrich", email: "testelrich@icloud.com")
+      ProfileNavigationLink(username: "Bartolome Estelrich", email: "my.email@icloud.com")
         .previewLayout(.sizeThatFits)
     }
 }

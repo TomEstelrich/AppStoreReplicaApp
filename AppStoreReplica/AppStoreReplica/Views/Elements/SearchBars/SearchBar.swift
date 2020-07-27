@@ -11,6 +11,7 @@ struct SearchBarCustom: View {
   }
 }
 
+
 struct SearchBar: UIViewRepresentable {
   @Binding var text: String
   
@@ -48,4 +49,11 @@ struct SearchBar: UIViewRepresentable {
     uiView.placeholder = "Game, Apps, Stories, and More"
   }
   
+}
+
+
+struct SearchBarCustom_Previews: PreviewProvider {
+    static var previews: some View {
+      SearchBarCustom(text: .constant("Search"))
+    }
 }

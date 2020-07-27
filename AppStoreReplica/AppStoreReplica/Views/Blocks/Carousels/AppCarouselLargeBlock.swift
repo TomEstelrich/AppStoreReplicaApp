@@ -2,39 +2,40 @@
 import SwiftUI
 
 
-struct SingleAppGroupView: View {
+struct AppCarouselLargeBlock: View {
   var body: some View {
     TabView {
-      // Group view
       ForEach(0 ..< 5) { item in
         VStack {
+          Divider()
           VStack(alignment: .leading) {
-            Text("MAJOR UPDATE")
+            Text("UPDATE")
               .bold()
               .foregroundColor(.blue)
               .font(.footnote)
             
-            Text("PUBG Mobile")
+            Text("App title")
               .font(.title3)
             
-            Text("See what's new in season 14")
+            Text("Description")
               .foregroundColor(.secondary)
           }
           .frame(maxWidth: .infinity, alignment: .leading)
-          RoundedRectangle(cornerRadius: 8, style: .continuous)
+          RoundedRectangle(cornerRadius: 12, style: .continuous)
+            .foregroundColor(Color.gray)
         }
       }
-      .padding()
+      .padding(.horizontal)
     }
     .frame(width: UIScreen.main.bounds.width, height: 300)
     .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-    
+    .padding(.bottom, 24)
   }
 }
 
 
 struct SingleAppGroupView_Previews: PreviewProvider {
     static var previews: some View {
-        SingleAppGroupView()
+        AppCarouselLargeBlock()
     }
 }

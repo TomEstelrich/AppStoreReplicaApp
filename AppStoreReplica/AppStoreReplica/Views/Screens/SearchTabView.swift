@@ -11,9 +11,9 @@ struct SearchTabView: View {
     NavigationView {
       ScrollView {
         SearchBarCustom(text: $text)
-        DiscoverBlockView()
+        DiscoverBlock()
         Spacer()
-        SuggestedAppsBlockView()
+        SuggestedAppsBlock()
       }
       .navigationBarTitle("Search")
       .navigationBarItems(leading: SearchBar(text: $text), trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))

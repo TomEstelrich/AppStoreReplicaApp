@@ -8,65 +8,13 @@ struct GamesTabView: View {
   var body: some View {
     NavigationView {
       ScrollView {
-        Group {
-          Divider()
-          SingleAppGroupView()
-        }
-      
-        Group {
-          Divider()
-            .padding(.vertical, 5)
-          
-          MultipleAppGroupHeaderView(headerTitle: "What to Play This Week")
-          MultipleAppGroupView()
-        }
-        
-        Group {
-          Divider()
-            .padding(.vertical, 5)
-          
-          MultipleAppGroupHeaderView(headerTitle: "New Games We Love")
-          MultipleAppGroupView()
-        }
-        
-        Group {
-          Divider()
-            .padding(.vertical, 5)
-          
-          MultipleAppGroupHeaderView(headerTitle: "Coming Soon")
-          MultipleAppBlock2View(cellsNumber: 5)
-        }
-        
-        Group {
-          Divider()
-            .padding(.vertical, 5)
-          
-          MultipleAppGroupHeaderView(headerTitle: "Top Categories")
-          MultipleSingleLineIconAndButtonView()
-        }
-        
-        Group {
-          Divider()
-            .padding(.vertical, 5)
-          
-          MultipleAppGroupHeaderView(headerTitle: "Quick Links")
-          QuickLinksBlock()
-        }
-        
-        Group {
-          VStack(spacing: 10) {
-            DefaultButtonView(title: "Redeem")
-            DefaultButtonView(title: "Send Gift")
-            DefaultButtonView(title: "Add Funds to Apple ID")
-          }
-          .padding()
-        }
-        
-        Group {
-          Divider()
-          TermsAndConditionsBlockView()
-        }
-        
+        AppCarouselLargeBlock()
+        AppCarouselSmallBlock(title: "What to Play This Week")
+        AppCarouselSmallBlock(title: "New Games We Love")
+        AppCarouselMediumBlock(title: "Coming Soon", cellsNumber: 5)
+        TopCategoriesBlock()
+        QuickLinksBlock()
+        TermsAndConditionsBlock()
       }
       .navigationBarTitle("Games")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))

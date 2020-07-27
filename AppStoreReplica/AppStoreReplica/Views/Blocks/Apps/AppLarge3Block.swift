@@ -2,42 +2,43 @@
 import SwiftUI
 
 
-struct TodayTabBlock3View: View {
-//  let geometry: GeometryProxy
-  
+struct AppLarge3Block: View {
   var body: some View {
     VStack(alignment: .leading) {
-      Text("APPLE ARCADE")
+      Text("CATEGORY")
         .font(.headline)
         .foregroundColor(.white)
-        .padding(.horizontal, 16)
       
-      Text("Top Apple Arcade Games This Week")
+      
+      Text("Headline")
         .font(.title)
         .fontWeight(.bold)
         .foregroundColor(.white)
-        .padding(.horizontal, 16)
+        //        .padding(.horizontal, 16)
         .frame(height: 75)
       
+      Spacer()
+      
       VStack {
-        SingleCellTodayTabView()
+        AppSmall2Block()
         Divider()
-        SingleCellTodayTabView()
+        AppSmall2Block()
         Divider()
-        SingleCellTodayTabView()
+        AppSmall2Block()
         Divider()
-        SingleCellTodayTabView()
+        AppSmall2Block()
       }
     }
+    .padding()
     .frame(width: UIScreen.main.bounds.width - 32, height: UIScreen.main.bounds.width * 1.1)
-    .background(Color.gray)
-    .cornerRadius(20)
+    .background(Color(UIColor.systemGray2))
+    .clipShape(RoundedRectangle(cornerRadius: 20))
   }
 }
 
 
 struct TodayTabBlock3View_Previews: PreviewProvider {
-    static var previews: some View {
-        TodayTabBlock3View()
-    }
+  static var previews: some View {
+    AppLarge3Block()
+  }
 }

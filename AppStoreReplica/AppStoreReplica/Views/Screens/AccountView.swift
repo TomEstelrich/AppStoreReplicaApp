@@ -7,11 +7,12 @@ struct AccountView: View {
   
   var body: some View {
     NavigationView {
-      Form {
+      List {
         Section {
-          ProfileNavigationLink(username: "Bartolome Estelrich", email: "testelrich@icloud.com")
-        }
+          ProfileNavigationLink(username: "Bartolome Estelrich", email: "my.email@icloud.com")
 
+        }
+        
         Section {
           SingleLineNavigationLink(text: "Purchased")
           SingleLineNavigationLink(text: "Subscriptions")
@@ -28,12 +29,13 @@ struct AccountView: View {
         }
         
         Section(header: Text("UPDATED RECENTLY")) {
-          RecentlyUpdatedAppsList(title: "App title", date: "Today")
+          RecentlyUpdatedAppsList(title: "App title", date: "Today", range: Range(0...5))
         }
         
       }
-        .navigationBarTitle("Account", displayMode: .inline)
-        .navigationBarItems(trailing: DismissButton(buttonTitle: "Done", presentationMode: presentationMode))
+      .listStyle(GroupedListStyle())
+      .navigationBarTitle("Account", displayMode: .inline)
+      .navigationBarItems(trailing: DismissButton(title: "Done", presentationMode: _presentationMode))
     }
   }
 }

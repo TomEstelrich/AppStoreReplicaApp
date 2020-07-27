@@ -1,8 +1,9 @@
-// 2020.07.26 | AppStoreReplica - DefaultButtonView.swift |
+// 2020.07.26 | AppStoreReplica - DefaultButton.swift |
 import SwiftUI
 
 
-struct DefaultButtonView: View {
+struct DefaultButton: View {
+  @Environment (\.colorScheme) var colorScheme:ColorScheme
   @State var isPresented = false
   let title: String
   
@@ -11,15 +12,15 @@ struct DefaultButtonView: View {
       isPresented = true
     }) {
       Text(title)
-        .fontWeight(.bold)
+        .fontWeight(.semibold)
         .frame(maxWidth: .infinity)
         .frame(height: 44)
-        .foregroundColor(.white)
-        .background(Color.secondary)
+        .foregroundColor(colorScheme == .light ? .blue : .white)
+        .background(Color(UIColor.systemGray6))
         .cornerRadius(10)
     }
     .sheet(isPresented: self.$isPresented) {
-      EmptyView()
+      DefaultView(title: title)
     }
   }
 }
@@ -27,6 +28,6 @@ struct DefaultButtonView: View {
   
 struct DefaultButtonView_Previews: PreviewProvider {
   static var previews: some View {
-    DefaultButtonView(title: "Title")
+    DefaultButton(title: "Title")
   }
 }

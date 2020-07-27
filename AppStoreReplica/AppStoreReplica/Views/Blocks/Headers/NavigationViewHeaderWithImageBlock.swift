@@ -1,20 +1,21 @@
-// 2020.07.19 | AppStore - HeaderView.swift |
+// 2020.07.29 | AppStoreReplica - NavigationViewHeaderWithImageBlock.swift |
 import SwiftUI
 
 
-struct MainHeaderView: View {
+struct NavigationViewHeaderWithImageBlock: View {
   @State var isAccountViewPresented = false
+  let date: Date
   
   var body: some View {
     VStack {
-      Text("Sunday, July 19")
+      Text(date.toFullDateFormat())
         .font(.subheadline)
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.leading)
         .foregroundColor(.secondary)
       
       HStack {
-        Text("Today")
+        Text(date.toWeekDayFormat())
           .font(.title)
           .bold()
           .padding(.leading)
@@ -26,12 +27,13 @@ struct MainHeaderView: View {
       }
       .frame(maxWidth: .infinity, alignment: .leading)
     }
+    .padding(.top, 32)
   }
 }
 
 
-struct HeaderView_Previews: PreviewProvider {
-  static var previews: some View {
-    MainHeaderView()
-  }
+struct NavigationViewHeaderWithImageBlock_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationViewHeaderWithImageBlock(date: Date())
+    }
 }

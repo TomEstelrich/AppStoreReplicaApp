@@ -19,7 +19,7 @@ struct SingleLineIconAndButtonView: View {
     }
     .frame(maxWidth: .infinity, alignment: .leading)
     .sheet(isPresented: self.$isPresented) {
-      EmptyView()
+      DefaultView(title: buttonTitle)
     }
     
   }

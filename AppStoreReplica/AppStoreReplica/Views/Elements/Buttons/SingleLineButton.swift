@@ -13,7 +13,7 @@ struct SingleLineButton: View {
       Text(title)
     }
     .sheet(isPresented: self.$isPresented) {
-      EmptyView()
+      DefaultView(title: title)
     }
   }
 }
