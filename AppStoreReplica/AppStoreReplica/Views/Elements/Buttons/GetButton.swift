@@ -3,8 +3,10 @@ import SwiftUI
 
 
 struct GetButton: View {
+  var title: String = "GET"
+  
   var body: some View {
-    Button("GET") {}
+    Button(title) {}
       .font(Font.system(.caption).bold())
       .padding(.horizontal, 24)
       .padding(.vertical, 6)

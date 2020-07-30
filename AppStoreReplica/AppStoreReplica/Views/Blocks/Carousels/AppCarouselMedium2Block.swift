@@ -1,8 +1,8 @@
-// 2020.07.26 | AppStoreReplica - MultipleAppBlock2View.swift |
+// 2020.07.30 | AppStoreReplica - AppCarouselMedium2Block.swift |
 import SwiftUI
 
 
-struct AppCarouselMediumBlock: View {
+struct AppCarouselMedium2Block: View {
   var title: String = "Title"
   let cellsNumber: Int
   
@@ -14,19 +14,19 @@ struct AppCarouselMediumBlock: View {
       ScrollView([.horizontal], showsIndicators: false) {
         HStack {
           ForEach(Range(0...cellsNumber)) { _ in
-            AppMediumBlock()
+            AppMedium2Block()
+              .padding()
           }
         }
       }
     }
-    .frame(height: 250)
+//    .frame(height: 250)
     .padding(.bottom, 24)
   }
 }
 
-
-struct MultipleAppBlock2View_Previews: PreviewProvider {
-  static var previews: some View {
-    AppCarouselMediumBlock(cellsNumber: 5)
-  }
+struct AppCarouselMedium2Block_Previews: PreviewProvider {
+    static var previews: some View {
+        AppCarouselMedium2Block(cellsNumber: 5)
+    }
 }

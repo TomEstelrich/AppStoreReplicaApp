@@ -1,8 +1,8 @@
-// 2020.07.26 | AppStoreReplica - AppBlock2View.swift |
+// 2020.07.26 | AppStoreReplica - AppMedium1Block.swift |
 import SwiftUI
 
 
-struct AppMediumBlock: View {
+struct AppMedium1Block: View {
   var body: some View {
     VStack(alignment: .center) {
       RoundedRectangle(cornerRadius: 32, style: .continuous)
@@ -20,9 +20,9 @@ struct AppMediumBlock: View {
   }
 }
 
-struct AppBlock2View_Previews: PreviewProvider {
+struct AppMedium1Block_Previews: PreviewProvider {
   static var previews: some View {
-    AppMediumBlock()
+    AppMedium1Block()
   }
 }
 

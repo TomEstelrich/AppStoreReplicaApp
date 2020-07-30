@@ -8,10 +8,12 @@ struct AppsTabView: View {
   var body: some View {
     NavigationView {
       ScrollView {
-        Divider()
-        //      HeaderView()
         AppCarouselLargeBlock()
-        AppCarouselSmallBlock()
+        AppCarouselSmallBlock(title: "Get Ready for Sports")
+        AppCarouselMedium2Block(title: "Apps With Free Trials", cellsNumber: 5)        
+        TopAppsCategoriesBlock()
+        QuickLinksBlock()
+        TermsAndConditionsBlock()
       }
       .navigationBarTitle("Apps")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))

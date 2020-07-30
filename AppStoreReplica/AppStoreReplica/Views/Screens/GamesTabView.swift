@@ -11,8 +11,8 @@ struct GamesTabView: View {
         AppCarouselLargeBlock()
         AppCarouselSmallBlock(title: "What to Play This Week")
         AppCarouselSmallBlock(title: "New Games We Love")
-        AppCarouselMediumBlock(title: "Coming Soon", cellsNumber: 5)
-        TopCategoriesBlock()
+        AppCarouselMedium1Block(title: "Coming Soon", cellsNumber: 5)
+        TopGamesCategoriesBlock()
         QuickLinksBlock()
         TermsAndConditionsBlock()
       }

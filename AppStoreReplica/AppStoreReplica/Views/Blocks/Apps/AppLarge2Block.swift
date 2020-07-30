@@ -7,7 +7,7 @@ struct AppLarge2Block: View {
     VStack(alignment: .leading) {
       Spacer()
     
-      Text("HEADLINE")
+      Text("Headline")
         .font(.system(size: 40))
         .fontWeight(.black)
         .foregroundColor(.white)

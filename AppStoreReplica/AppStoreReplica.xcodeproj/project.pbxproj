@@ -11,6 +11,7 @@
 		C922477F24CF89D10013F293 /* GetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922477E24CF89D10013F293 /* GetButton.swift */; };
 		C922478124CF8B250013F293 /* InAppPurchasesLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922478024CF8B250013F293 /* InAppPurchasesLabel.swift */; };
 		C922478324CF8BD40013F293 /* TryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922478224CF8BD40013F293 /* TryButton.swift */; };
+		C92F643C24D3163400A5DEB8 /* AppCarouselMedium2Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92F643B24D3163400A5DEB8 /* AppCarouselMedium2Block.swift */; };
 		C932352224CE18D000D3839F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932352124CE18D000D3839F /* SearchBar.swift */; };
 		C951D58724D2052F00C4EF26 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951D58624D2052F00C4EF26 /* Date+Ext.swift */; };
 		C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */; };
@@ -32,6 +33,8 @@
 		C999AF7024CE44E400EB346A /* QuickLinksBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */; };
 		C999AF7224CE468E00EB346A /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF7124CE468E00EB346A /* DefaultButton.swift */; };
 		C999AF7424CE490600EB346A /* TermsAndConditionsBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF7324CE490600EB346A /* TermsAndConditionsBlock.swift */; };
+		C99ED4ED24D30397006A8D71 /* TopAppsCategoriesBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99ED4EC24D30397006A8D71 /* TopAppsCategoriesBlock.swift */; };
+		C99ED4EF24D305F0006A8D71 /* AppMedium2Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99ED4EE24D305F0006A8D71 /* AppMedium2Block.swift */; };
 		C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E724C5DC88008A54D5 /* AccountView.swift */; };
 		C9A128EA24C5DECC008A54D5 /* AccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128E924C5DECC008A54D5 /* AccountButton.swift */; };
 		C9A128ED24C5E377008A54D5 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A128EC24C5E377008A54D5 /* DismissButton.swift */; };
@@ -45,10 +48,10 @@
 		C9D91B3424C6479900DB0008 /* AppLarge3Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D91B3324C6479800DB0008 /* AppLarge3Block.swift */; };
 		C9E7620F24CE29F60029264E /* ItemDetailsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7620E24CE29F60029264E /* ItemDetailsTextView.swift */; };
 		C9E7621124CE2A500029264E /* ItemTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621024CE2A500029264E /* ItemTitleTextView.swift */; };
-		C9E7621424CE326D0029264E /* AppMediumBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621324CE326D0029264E /* AppMediumBlock.swift */; };
-		C9E7621624CE38C30029264E /* AppCarouselMediumBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621524CE38C30029264E /* AppCarouselMediumBlock.swift */; };
+		C9E7621424CE326D0029264E /* AppMedium1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621324CE326D0029264E /* AppMedium1Block.swift */; };
+		C9E7621624CE38C30029264E /* AppCarouselMedium1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621524CE38C30029264E /* AppCarouselMedium1Block.swift */; };
 		C9E7621824CE41050029264E /* SingleLineIconAndButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621724CE41050029264E /* SingleLineIconAndButtonView.swift */; };
-		C9E7621A24CE42F20029264E /* TopCategoriesBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621924CE42F20029264E /* TopCategoriesBlock.swift */; };
+		C9E7621A24CE42F20029264E /* TopGamesCategoriesBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7621924CE42F20029264E /* TopGamesCategoriesBlock.swift */; };
 		C9F2565F24CF80AD00549B6C /* SectionHeaderExtendedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2565E24CF80AD00549B6C /* SectionHeaderExtendedBlock.swift */; };
 		C9F63BA724C5EABC00ECA58B /* ProfileNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */; };
 		C9F63BAA24C5EAEF00ECA58B /* SingleLineNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */; };
@@ -60,6 +63,7 @@
 		C922477E24CF89D10013F293 /* GetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetButton.swift; sourceTree = "<group>"; };
 		C922478024CF8B250013F293 /* InAppPurchasesLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchasesLabel.swift; sourceTree = "<group>"; };
 		C922478224CF8BD40013F293 /* TryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryButton.swift; sourceTree = "<group>"; };
+		C92F643B24D3163400A5DEB8 /* AppCarouselMedium2Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselMedium2Block.swift; sourceTree = "<group>"; };
 		C932352124CE18D000D3839F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C951D58624D2052F00C4EF26 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineButton.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksBlock.swift; sourceTree = "<group>"; };
 		C999AF7124CE468E00EB346A /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 		C999AF7324CE490600EB346A /* TermsAndConditionsBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsBlock.swift; sourceTree = "<group>"; };
+		C99ED4EC24D30397006A8D71 /* TopAppsCategoriesBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppsCategoriesBlock.swift; sourceTree = "<group>"; };
+		C99ED4EE24D305F0006A8D71 /* AppMedium2Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMedium2Block.swift; sourceTree = "<group>"; };
 		C9A128E724C5DC88008A54D5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		C9A128E924C5DECC008A54D5 /* AccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountButton.swift; sourceTree = "<group>"; };
 		C9A128EC24C5E377008A54D5 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
@@ -96,10 +102,10 @@
 		C9D91B3324C6479800DB0008 /* AppLarge3Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLarge3Block.swift; sourceTree = "<group>"; };
 		C9E7620E24CE29F60029264E /* ItemDetailsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsTextView.swift; sourceTree = "<group>"; };
 		C9E7621024CE2A500029264E /* ItemTitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTitleTextView.swift; sourceTree = "<group>"; };
-		C9E7621324CE326D0029264E /* AppMediumBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMediumBlock.swift; sourceTree = "<group>"; };
-		C9E7621524CE38C30029264E /* AppCarouselMediumBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselMediumBlock.swift; sourceTree = "<group>"; };
+		C9E7621324CE326D0029264E /* AppMedium1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMedium1Block.swift; sourceTree = "<group>"; };
+		C9E7621524CE38C30029264E /* AppCarouselMedium1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselMedium1Block.swift; sourceTree = "<group>"; };
 		C9E7621724CE41050029264E /* SingleLineIconAndButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineIconAndButtonView.swift; sourceTree = "<group>"; };
-		C9E7621924CE42F20029264E /* TopCategoriesBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCategoriesBlock.swift; sourceTree = "<group>"; };
+		C9E7621924CE42F20029264E /* TopGamesCategoriesBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesCategoriesBlock.swift; sourceTree = "<group>"; };
 		C9F2565E24CF80AD00549B6C /* SectionHeaderExtendedBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderExtendedBlock.swift; sourceTree = "<group>"; };
 		C9F63BA624C5EABC00ECA58B /* ProfileNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationLink.swift; sourceTree = "<group>"; };
 		C9F63BA924C5EAEF00ECA58B /* SingleLineNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineNavigationLink.swift; sourceTree = "<group>"; };
@@ -262,7 +268,8 @@
 				C9D91B2E24C6470700DB0008 /* AppLarge1Block.swift */,
 				C9D91B3124C6477800DB0008 /* AppLarge2Block.swift */,
 				C9D91B3324C6479800DB0008 /* AppLarge3Block.swift */,
-				C9E7621324CE326D0029264E /* AppMediumBlock.swift */,
+				C9E7621324CE326D0029264E /* AppMedium1Block.swift */,
+				C99ED4EE24D305F0006A8D71 /* AppMedium2Block.swift */,
 				C98A3B2C24C4F4A8009387D3 /* AppSmall1Block.swift */,
 				C9D91B2B24C643F300DB0008 /* AppSmall2Block.swift */,
 			);
@@ -273,7 +280,8 @@
 			isa = PBXGroup;
 			children = (
 				C98A3B2A24C4F490009387D3 /* AppCarouselSmallBlock.swift */,
-				C9E7621524CE38C30029264E /* AppCarouselMediumBlock.swift */,
+				C9E7621524CE38C30029264E /* AppCarouselMedium1Block.swift */,
+				C92F643B24D3163400A5DEB8 /* AppCarouselMedium2Block.swift */,
 				C98A3B2824C4F476009387D3 /* AppCarouselLargeBlock.swift */,
 				C9C0852524D230AB0021C29D /* AppCarouselExtraLargeBlock.swift */,
 			);
@@ -283,7 +291,8 @@
 		C9DA553824CF8DE30062294F /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				C9E7621924CE42F20029264E /* TopCategoriesBlock.swift */,
+				C99ED4EC24D30397006A8D71 /* TopAppsCategoriesBlock.swift */,
+				C9E7621924CE42F20029264E /* TopGamesCategoriesBlock.swift */,
 				C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */,
 				C9D91B2724C625AC00DB0008 /* DiscoverBlock.swift */,
 				C9D91B2924C625CC00DB0008 /* SuggestedAppsBlock.swift */,
@@ -394,6 +403,7 @@
 			files = (
 				C98A3B2924C4F476009387D3 /* AppCarouselLargeBlock.swift in Sources */,
 				C9D91B3224C6477800DB0008 /* AppLarge2Block.swift in Sources */,
+				C92F643C24D3163400A5DEB8 /* AppCarouselMedium2Block.swift in Sources */,
 				C98A3B2424C4F348009387D3 /* ArcadeTabView.swift in Sources */,
 				C98A3B1E24C4F2DD009387D3 /* TodayTabView.swift in Sources */,
 				C9C0852624D230AB0021C29D /* AppCarouselExtraLargeBlock.swift in Sources */,
@@ -410,7 +420,7 @@
 				C9D91B2824C625AC00DB0008 /* DiscoverBlock.swift in Sources */,
 				C999AF7424CE490600EB346A /* TermsAndConditionsBlock.swift in Sources */,
 				C98A3B2224C4F31F009387D3 /* AppsTabView.swift in Sources */,
-				C9E7621424CE326D0029264E /* AppMediumBlock.swift in Sources */,
+				C9E7621424CE326D0029264E /* AppMedium1Block.swift in Sources */,
 				C9D91B3424C6479900DB0008 /* AppLarge3Block.swift in Sources */,
 				C98A3B2F24C4F8CB009387D3 /* NavigationViewHeaderBlock.swift in Sources */,
 				C98A3B2624C4F364009387D3 /* SearchTabView.swift in Sources */,
@@ -419,18 +429,20 @@
 				C95A19BE24C5FB570055BDA1 /* RecentlyUpdatedAppsList.swift in Sources */,
 				C999AF7224CE468E00EB346A /* DefaultButton.swift in Sources */,
 				C9F2565F24CF80AD00549B6C /* SectionHeaderExtendedBlock.swift in Sources */,
-				C9E7621A24CE42F20029264E /* TopCategoriesBlock.swift in Sources */,
+				C9E7621A24CE42F20029264E /* TopGamesCategoriesBlock.swift in Sources */,
 				C98A3B2B24C4F490009387D3 /* AppCarouselSmallBlock.swift in Sources */,
 				C9D91B2C24C643F300DB0008 /* AppSmall2Block.swift in Sources */,
 				C9D91B2A24C625CC00DB0008 /* SuggestedAppsBlock.swift in Sources */,
 				C922478324CF8BD40013F293 /* TryButton.swift in Sources */,
 				C932352224CE18D000D3839F /* SearchBar.swift in Sources */,
+				C99ED4ED24D30397006A8D71 /* TopAppsCategoriesBlock.swift in Sources */,
 				C97D65D324CF8C7C00E1640F /* SectionHeaderBlock.swift in Sources */,
 				C9F63BAC24C5F1A000ECA58B /* DefaultAppButton.swift in Sources */,
 				C922477F24CF89D10013F293 /* GetButton.swift in Sources */,
+				C99ED4EF24D305F0006A8D71 /* AppMedium2Block.swift in Sources */,
 				C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */,
 				C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */,
-				C9E7621624CE38C30029264E /* AppCarouselMediumBlock.swift in Sources */,
+				C9E7621624CE38C30029264E /* AppCarouselMedium1Block.swift in Sources */,
 				C922478124CF8B250013F293 /* InAppPurchasesLabel.swift in Sources */,
 				C9A128ED24C5E377008A54D5 /* DismissButton.swift in Sources */,
 				C98A3B0A24C4E018009387D3 /* AppStoreApp.swift in Sources */,
