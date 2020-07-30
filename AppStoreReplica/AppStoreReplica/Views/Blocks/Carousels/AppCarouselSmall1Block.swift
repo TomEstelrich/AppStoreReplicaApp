@@ -1,15 +1,15 @@
-// 2020.07.19 | AppStore - AppCarrouselSmallBlock.swift |
+// 2020.07.19 | AppStore - AppCarouselSmall1Block.swift |
 import SwiftUI
 
 
-struct AppCarouselSmallBlock: View {
+struct AppCarouselSmall1Block: View {
   var title: String = "Title"
   
   var body: some View {
     // Header
     VStack {
       SectionHeaderExtendedBlock(title: title)
-        .padding(.horizontal)
+        .padding()
       
       TabView {
         ForEach(0 ..< 5) { item in
@@ -24,15 +24,16 @@ struct AppCarouselSmallBlock: View {
       .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
       .tabViewStyle(PageTabViewStyle())
     }
-    .frame(width: UIScreen.main.bounds.width, height: 235)
+    .frame(width: UIScreen.main.bounds.width, height: 250)
+    .padding(.bottom)
   }
   
 }
 
 
-struct MultipleAppGroupView_Previews: PreviewProvider {
+struct AppCarouselSmall1Block_Previews: PreviewProvider {
   static var previews: some View {
-    AppCarouselSmallBlock()
+    AppCarouselSmall1Block()
   }
 }
 

@@ -9,8 +9,8 @@ struct AppsTabView: View {
     NavigationView {
       ScrollView {
         AppCarouselLargeBlock()
-        AppCarouselSmallBlock(title: "Get Ready for Sports")
-        AppCarouselMedium2Block(title: "Apps With Free Trials", cellsNumber: 5)        
+        AppCarouselSmall1Block(title: "Get Ready for Sports")
+        AppCarouselMedium2Block(title: "Apps With Free Trials", cellsNumber: 5)
         TopAppsCategoriesBlock()
         QuickLinksBlock()
         TermsAndConditionsBlock()

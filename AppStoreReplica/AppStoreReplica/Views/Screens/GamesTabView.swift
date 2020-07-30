@@ -9,8 +9,8 @@ struct GamesTabView: View {
     NavigationView {
       ScrollView {
         AppCarouselLargeBlock()
-        AppCarouselSmallBlock(title: "What to Play This Week")
-        AppCarouselSmallBlock(title: "New Games We Love")
+        AppCarouselSmall1Block(title: "What to Play This Week")
+        AppCarouselSmall1Block(title: "New Games We Love")
         AppCarouselMedium1Block(title: "Coming Soon", cellsNumber: 5)
         TopGamesCategoriesBlock()
         QuickLinksBlock()

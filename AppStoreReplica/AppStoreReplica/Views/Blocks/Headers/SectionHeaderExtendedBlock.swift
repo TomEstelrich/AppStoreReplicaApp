@@ -8,6 +8,7 @@ struct SectionHeaderExtendedBlock: View {
   var body: some View {
     VStack {
       Divider()
+      
       HStack {
         Text(title)
           .font(.title3)

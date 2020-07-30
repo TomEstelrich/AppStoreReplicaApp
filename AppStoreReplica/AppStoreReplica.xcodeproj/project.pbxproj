@@ -12,6 +12,8 @@
 		C922478124CF8B250013F293 /* InAppPurchasesLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922478024CF8B250013F293 /* InAppPurchasesLabel.swift */; };
 		C922478324CF8BD40013F293 /* TryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922478224CF8BD40013F293 /* TryButton.swift */; };
 		C92F643C24D3163400A5DEB8 /* AppCarouselMedium2Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92F643B24D3163400A5DEB8 /* AppCarouselMedium2Block.swift */; };
+		C92F643E24D3199300A5DEB8 /* ArcadeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92F643D24D3199300A5DEB8 /* ArcadeHeader.swift */; };
+		C92F644024D3214700A5DEB8 /* AppCarouselSmall2Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92F643F24D3214700A5DEB8 /* AppCarouselSmall2Block.swift */; };
 		C932352224CE18D000D3839F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932352124CE18D000D3839F /* SearchBar.swift */; };
 		C951D58724D2052F00C4EF26 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951D58624D2052F00C4EF26 /* Date+Ext.swift */; };
 		C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */; };
@@ -27,7 +29,7 @@
 		C98A3B2424C4F348009387D3 /* ArcadeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2324C4F348009387D3 /* ArcadeTabView.swift */; };
 		C98A3B2624C4F364009387D3 /* SearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2524C4F364009387D3 /* SearchTabView.swift */; };
 		C98A3B2924C4F476009387D3 /* AppCarouselLargeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2824C4F476009387D3 /* AppCarouselLargeBlock.swift */; };
-		C98A3B2B24C4F490009387D3 /* AppCarouselSmallBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2A24C4F490009387D3 /* AppCarouselSmallBlock.swift */; };
+		C98A3B2B24C4F490009387D3 /* AppCarouselSmall1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2A24C4F490009387D3 /* AppCarouselSmall1Block.swift */; };
 		C98A3B2D24C4F4A8009387D3 /* AppSmall1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2C24C4F4A8009387D3 /* AppSmall1Block.swift */; };
 		C98A3B2F24C4F8CB009387D3 /* NavigationViewHeaderBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A3B2E24C4F8CB009387D3 /* NavigationViewHeaderBlock.swift */; };
 		C999AF7024CE44E400EB346A /* QuickLinksBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */; };
@@ -64,6 +66,8 @@
 		C922478024CF8B250013F293 /* InAppPurchasesLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchasesLabel.swift; sourceTree = "<group>"; };
 		C922478224CF8BD40013F293 /* TryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryButton.swift; sourceTree = "<group>"; };
 		C92F643B24D3163400A5DEB8 /* AppCarouselMedium2Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselMedium2Block.swift; sourceTree = "<group>"; };
+		C92F643D24D3199300A5DEB8 /* ArcadeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeHeader.swift; sourceTree = "<group>"; };
+		C92F643F24D3214700A5DEB8 /* AppCarouselSmall2Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselSmall2Block.swift; sourceTree = "<group>"; };
 		C932352124CE18D000D3839F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C951D58624D2052F00C4EF26 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		C95A19BB24C5FB2D0055BDA1 /* SingleLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineButton.swift; sourceTree = "<group>"; };
@@ -81,7 +85,7 @@
 		C98A3B2324C4F348009387D3 /* ArcadeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeTabView.swift; sourceTree = "<group>"; };
 		C98A3B2524C4F364009387D3 /* SearchTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabView.swift; sourceTree = "<group>"; };
 		C98A3B2824C4F476009387D3 /* AppCarouselLargeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselLargeBlock.swift; sourceTree = "<group>"; };
-		C98A3B2A24C4F490009387D3 /* AppCarouselSmallBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselSmallBlock.swift; sourceTree = "<group>"; };
+		C98A3B2A24C4F490009387D3 /* AppCarouselSmall1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarouselSmall1Block.swift; sourceTree = "<group>"; };
 		C98A3B2C24C4F4A8009387D3 /* AppSmall1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSmall1Block.swift; sourceTree = "<group>"; };
 		C98A3B2E24C4F8CB009387D3 /* NavigationViewHeaderBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewHeaderBlock.swift; sourceTree = "<group>"; };
 		C999AF6F24CE44E400EB346A /* QuickLinksBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksBlock.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				C9C0852324D22E540021C29D /* NavigationViewHeaderWithImageBlock.swift */,
 				C97D65D224CF8C7C00E1640F /* SectionHeaderBlock.swift */,
 				C9F2565E24CF80AD00549B6C /* SectionHeaderExtendedBlock.swift */,
+				C92F643D24D3199300A5DEB8 /* ArcadeHeader.swift */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -279,7 +284,8 @@
 		C9DA553724CF8DD00062294F /* Carousels */ = {
 			isa = PBXGroup;
 			children = (
-				C98A3B2A24C4F490009387D3 /* AppCarouselSmallBlock.swift */,
+				C98A3B2A24C4F490009387D3 /* AppCarouselSmall1Block.swift */,
+				C92F643F24D3214700A5DEB8 /* AppCarouselSmall2Block.swift */,
 				C9E7621524CE38C30029264E /* AppCarouselMedium1Block.swift */,
 				C92F643B24D3163400A5DEB8 /* AppCarouselMedium2Block.swift */,
 				C98A3B2824C4F476009387D3 /* AppCarouselLargeBlock.swift */,
@@ -407,6 +413,7 @@
 				C98A3B2424C4F348009387D3 /* ArcadeTabView.swift in Sources */,
 				C98A3B1E24C4F2DD009387D3 /* TodayTabView.swift in Sources */,
 				C9C0852624D230AB0021C29D /* AppCarouselExtraLargeBlock.swift in Sources */,
+				C92F643E24D3199300A5DEB8 /* ArcadeHeader.swift in Sources */,
 				C9D91B2F24C6470700DB0008 /* AppLarge1Block.swift in Sources */,
 				C951D58724D2052F00C4EF26 /* Date+Ext.swift in Sources */,
 				C98A3B2D24C4F4A8009387D3 /* AppSmall1Block.swift in Sources */,
@@ -430,7 +437,7 @@
 				C999AF7224CE468E00EB346A /* DefaultButton.swift in Sources */,
 				C9F2565F24CF80AD00549B6C /* SectionHeaderExtendedBlock.swift in Sources */,
 				C9E7621A24CE42F20029264E /* TopGamesCategoriesBlock.swift in Sources */,
-				C98A3B2B24C4F490009387D3 /* AppCarouselSmallBlock.swift in Sources */,
+				C98A3B2B24C4F490009387D3 /* AppCarouselSmall1Block.swift in Sources */,
 				C9D91B2C24C643F300DB0008 /* AppSmall2Block.swift in Sources */,
 				C9D91B2A24C625CC00DB0008 /* SuggestedAppsBlock.swift in Sources */,
 				C922478324CF8BD40013F293 /* TryButton.swift in Sources */,
@@ -442,6 +449,7 @@
 				C99ED4EF24D305F0006A8D71 /* AppMedium2Block.swift in Sources */,
 				C95A19BC24C5FB2D0055BDA1 /* SingleLineButton.swift in Sources */,
 				C9A128E824C5DC88008A54D5 /* AccountView.swift in Sources */,
+				C92F644024D3214700A5DEB8 /* AppCarouselSmall2Block.swift in Sources */,
 				C9E7621624CE38C30029264E /* AppCarouselMedium1Block.swift in Sources */,
 				C922478124CF8B250013F293 /* InAppPurchasesLabel.swift in Sources */,
 				C9A128ED24C5E377008A54D5 /* DismissButton.swift in Sources */,
