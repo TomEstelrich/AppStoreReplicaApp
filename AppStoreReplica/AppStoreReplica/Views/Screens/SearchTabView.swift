@@ -10,7 +10,7 @@ struct SearchTabView: View {
   var body: some View {
     NavigationView {
       ScrollView {
-        SearchBarCustom(text: $text)
+        CustomSearchBar(text: $text)
         DiscoverBlock()
         Spacer()
         SuggestedAppsBlock()

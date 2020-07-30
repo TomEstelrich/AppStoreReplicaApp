@@ -1,4 +1,4 @@
-// 2020.07.20 | AppStoreReplica - TodayTabBlock2View.swift |
+// 2020.07.20 | AppStoreReplica - AppLarge2Block.swift |
 import SwiftUI
 
 
@@ -9,7 +9,7 @@ struct AppLarge2Block: View {
     
       Text("Headline")
         .font(.system(size: 40))
-        .fontWeight(.black)
+        .fontWeight(.bold)
         .foregroundColor(.white)
         .padding(.horizontal)
 
@@ -48,7 +48,7 @@ struct AppLarge2Block: View {
 }
 
 
-struct TodayTabBlock2View_Previews: PreviewProvider {
+struct AppLarge2Block_Previews: PreviewProvider {
     static var previews: some View {
         AppLarge2Block()
     }

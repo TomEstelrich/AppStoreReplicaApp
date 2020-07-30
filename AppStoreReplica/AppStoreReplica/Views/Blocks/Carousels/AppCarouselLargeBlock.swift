@@ -1,4 +1,4 @@
-// 2020.07.19 | AppStore - SingleAppGroupView.swift |
+// 2020.07.19 | AppStore - AppCarouselLargeBlock.swift |
 import SwiftUI
 
 
@@ -34,7 +34,7 @@ struct AppCarouselLargeBlock: View {
 }
 
 
-struct SingleAppGroupView_Previews: PreviewProvider {
+struct AppCarouselLargeBlock_Previews: PreviewProvider {
     static var previews: some View {
         AppCarouselLargeBlock()
     }

@@ -20,7 +20,6 @@ struct AppCarouselMedium2Block: View {
         }
       }
     }
-//    .frame(height: 250)
     .padding(.bottom, 24)
   }
 }

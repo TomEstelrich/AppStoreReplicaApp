@@ -2,8 +2,14 @@
 import SwiftUI
 
 struct ArcadeHeader: View {
+  @State var isAccountViewPresented = false
+  
   var body: some View {
     VStack(spacing: 20) {
+      AccountButton(isAccountViewPresented: $isAccountViewPresented)
+        .padding(.top, 64)
+        .frame(maxWidth: .infinity, alignment: .trailing)
+      
       Spacer()
       
       Text(" Arcade")

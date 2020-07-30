@@ -1,4 +1,4 @@
-// 2020.07.20 | AppStoreReplica - TodayTabBlock1View.swift |
+// 2020.07.20 | AppStoreReplica - AppLarge1Block.swift |
 import SwiftUI
 
 
@@ -31,7 +31,7 @@ struct AppLarge1Block: View {
 }
 
 
-struct TodayTabBlock1View_Previews: PreviewProvider {
+struct AppLarge1Block_Previews: PreviewProvider {
     static var previews: some View {
       AppLarge1Block()
     }

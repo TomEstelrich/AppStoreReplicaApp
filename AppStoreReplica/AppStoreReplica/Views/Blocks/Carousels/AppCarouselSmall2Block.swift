@@ -42,12 +42,3 @@ struct AppCarouselSmall2Block_Previews: PreviewProvider {
         AppCarouselSmall2Block()
     }
 }
-
-
-struct AppShape: View {
-  var body: some View {
-    RoundedRectangle(cornerRadius: 12, style: .continuous)
-      .foregroundColor(Color.gray)
-      .frame(width: 75, height: 75)
-  }
-}

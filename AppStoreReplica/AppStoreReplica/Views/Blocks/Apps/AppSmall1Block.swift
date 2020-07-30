@@ -1,4 +1,4 @@
-// 2020.07.19 | AppStore - AppView.swift |
+// 2020.07.19 | AppStore - AppSmall1Block.swift |
 import SwiftUI
 
 
@@ -31,7 +31,7 @@ struct AppSmall1Block: View {
 }
 
 
-struct AppView_Previews: PreviewProvider {
+struct AppSmall1Block_Previews: PreviewProvider {
   static var previews: some View {
     AppSmall1Block()
   }

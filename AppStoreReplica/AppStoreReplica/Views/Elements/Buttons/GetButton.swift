@@ -12,7 +12,6 @@ struct GetButton: View {
       .padding(.vertical, 6)
       .background(Color(UIColor.systemGray6))
       .clipShape(Capsule())
-//      .padding(.bottom, 5)
   }
 }
 

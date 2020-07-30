@@ -1,4 +1,4 @@
-// 2020.07.20 | AppStoreReplica - TodayTabBlock3View.swift |
+// 2020.07.20 | AppStoreReplica - AppLarge3Block.swift |
 import SwiftUI
 
 
@@ -14,7 +14,6 @@ struct AppLarge3Block: View {
         .font(.title)
         .fontWeight(.bold)
         .foregroundColor(.white)
-        //        .padding(.horizontal, 16)
         .frame(height: 75)
       
       Spacer()
@@ -37,7 +36,7 @@ struct AppLarge3Block: View {
 }
 
 
-struct TodayTabBlock3View_Previews: PreviewProvider {
+struct AppLarge3Block_Previews: PreviewProvider {
   static var previews: some View {
     AppLarge3Block()
   }

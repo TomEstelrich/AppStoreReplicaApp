@@ -1,4 +1,4 @@
-// 2020.07.19 | AppStore - HeaderView.swift |
+// 2020.07.19 | AppStore - NavigationViewHeaderBlock.swift |
 import SwiftUI
 
 
@@ -29,7 +29,7 @@ struct NavigationViewHeaderBlock: View {
 }
 
 
-struct HeaderView_Previews: PreviewProvider {
+struct NavigationViewHeaderBlock_Previews: PreviewProvider {
   static var previews: some View {
     NavigationViewHeaderBlock(date: Date())
   }

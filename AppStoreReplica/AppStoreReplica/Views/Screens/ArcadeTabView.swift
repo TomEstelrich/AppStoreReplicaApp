@@ -14,7 +14,6 @@ struct ArcadeTabView: View {
       TermsAndConditionsBlock()
     }
     .edgesIgnoringSafeArea(.top)
-    //      .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     .tabItem {
       Image(systemName: "gamecontroller.fill")
       Text("Arcade")

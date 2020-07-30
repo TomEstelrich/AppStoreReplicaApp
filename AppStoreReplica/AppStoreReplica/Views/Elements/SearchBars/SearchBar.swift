@@ -1,8 +1,8 @@
-// 2020.07.26 | AppStoreReplica - SearchBar.swift | 
+// 2020.07.26 | AppStoreReplica - CustomSearchBar.swift |
 import SwiftUI
 
 
-struct SearchBarCustom: View {
+struct CustomSearchBar: View {
   @Binding var text: String
   
   var body: some View {
@@ -52,8 +52,8 @@ struct SearchBar: UIViewRepresentable {
 }
 
 
-struct SearchBarCustom_Previews: PreviewProvider {
+struct CustomSearchBar_Previews: PreviewProvider {
     static var previews: some View {
-      SearchBarCustom(text: .constant("Search"))
+      CustomSearchBar(text: .constant("Search"))
     }
 }

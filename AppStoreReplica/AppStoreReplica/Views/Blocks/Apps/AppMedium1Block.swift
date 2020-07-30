@@ -9,11 +9,11 @@ struct AppMedium1Block: View {
         .foregroundColor(Color.gray)
         .aspectRatio(CGSize(width: 1, height: 1), contentMode: .fit)
       
-      ItemTitleTextView(text: "App title")
+      ItemTitleLabel(text: "App title")
         .lineLimit(1)
         .frame(width: 160)
       
-      ItemDetailsTextView(text: "Description")
+      ItemDetailsLabel(text: "Description")
         .lineLimit(1)
         .frame(width: 160)
     }

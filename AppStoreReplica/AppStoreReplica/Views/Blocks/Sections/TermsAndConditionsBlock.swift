@@ -1,4 +1,4 @@
-// 2020.07.26 | AppStoreReplica - TermsAndConditionsBlockView.swift |
+// 2020.07.26 | AppStoreReplica - TermsAndConditionsBlock.swift |
 import SwiftUI
 
 
@@ -8,7 +8,7 @@ struct TermsAndConditionsBlock: View {
       Divider()
         .padding(.bottom, 8)
       HStack {
-        ItemDetailsTextView(text: "Terms & Conditions")
+        ItemDetailsLabel(text: "Terms & Conditions")
         Image(systemName: "chevron.right")
           .foregroundColor(.secondary)
           .font(.caption)
@@ -19,7 +19,7 @@ struct TermsAndConditionsBlock: View {
 }
 
 
-struct TermsAndConditionsBlockView_Previews: PreviewProvider {
+struct TermsAndConditionsBlock_Previews: PreviewProvider {
   static var previews: some View {
     TermsAndConditionsBlock()
   }

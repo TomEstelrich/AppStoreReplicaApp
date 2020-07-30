@@ -6,7 +6,6 @@ struct AppCarouselSmall1Block: View {
   var title: String = "Title"
   
   var body: some View {
-    // Header
     VStack {
       SectionHeaderExtendedBlock(title: title)
         .padding()

@@ -1,4 +1,4 @@
-// 2020.07.27 | AppStoreReplica - SectionHeaderBlock.swift |
+// 2020.07.27 | AppStoreReplica - SectionHeaderExtendedBlock.swift |
 import SwiftUI
 
 

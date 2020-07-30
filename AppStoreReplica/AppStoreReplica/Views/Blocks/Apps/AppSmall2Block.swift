@@ -1,4 +1,4 @@
-// 2020.07.20 | AppStoreReplica - SingleCellTodayTabView.swift |
+// 2020.07.20 | AppStoreReplica - AppSmall2Block.swift |
 import SwiftUI
 
 
@@ -22,12 +22,11 @@ struct AppSmall2Block: View {
       
       TryButton()
     }
-//    .padding(.horizontal)
   }
 }
 
 
-struct SingleAppCellView_Previews: PreviewProvider {
+struct AppSmall2Block_Previews: PreviewProvider {
   static var previews: some View {
     AppSmall2Block()
       .preferredColorScheme(.dark)

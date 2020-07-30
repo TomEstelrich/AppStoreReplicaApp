@@ -2,7 +2,7 @@
 import SwiftUI
 
 
-struct ItemTitleTextView: View {
+struct ItemTitleLabel: View {
   let text: String
   
   var body: some View {
@@ -12,8 +12,8 @@ struct ItemTitleTextView: View {
 }
 
 
-struct ItemTitleTextView_Previews: PreviewProvider {
+struct ItemTitleLabel_Previews: PreviewProvider {
   static var previews: some View {
-    ItemTitleTextView(text: "App name")
+    ItemTitleLabel(text: "App name")
   }
 }

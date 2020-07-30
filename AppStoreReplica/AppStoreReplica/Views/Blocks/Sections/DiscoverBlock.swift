@@ -1,4 +1,4 @@
-// 2020.07.20 | AppStoreReplica - RecentLinksView.swift |
+// 2020.07.20 | AppStoreReplica - DiscoverBlock.swift |
 import SwiftUI
 
 
@@ -27,7 +27,7 @@ struct DiscoverBlock: View {
 }
 
 
-struct RecentLinksView_Previews: PreviewProvider {
+struct DiscoverBlock_Previews: PreviewProvider {
     static var previews: some View {
         DiscoverBlock()
     }

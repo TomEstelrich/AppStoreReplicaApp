@@ -34,10 +34,10 @@ struct AppMedium2Block: View {
       }
       
       VStack {
-        ItemTitleTextView(text: "App title")
+        ItemTitleLabel(text: "App title")
           .lineLimit(1)
         
-        ItemDetailsTextView(text: "Description")
+        ItemDetailsLabel(text: "Description")
           .lineLimit(1)
         
         Spacer()

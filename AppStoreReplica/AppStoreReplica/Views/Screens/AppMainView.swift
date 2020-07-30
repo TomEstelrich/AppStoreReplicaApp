@@ -1,4 +1,4 @@
-// 2020.07.19 | AppStore - ContentView.swift |
+// 2020.07.19 | AppStore - AppMainView.swift |
 import SwiftUI
 
 

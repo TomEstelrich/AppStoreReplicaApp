@@ -1,4 +1,4 @@
-// 2020.07.20 | AppStoreReplica - SuggestedAppsView.swift |
+// 2020.07.20 | AppStoreReplica - SuggestedAppsBlock.swift |
 import SwiftUI
 
 
@@ -21,7 +21,7 @@ struct SuggestedAppsBlock: View {
 }
 
 
-struct SuggestedAppsView_Previews: PreviewProvider {
+struct SuggestedAppsBlock_Previews: PreviewProvider {
     static var previews: some View {
         SuggestedAppsBlock()
     }

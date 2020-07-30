@@ -10,7 +10,6 @@ struct AccountView: View {
       List {
         Section {
           ProfileNavigationLink(username: "Bartolome Estelrich", email: "my.email@icloud.com")
-
         }
         
         Section {
