@@ -18,10 +18,6 @@ struct AppsTabView: View {
       .navigationBarTitle("Apps")
       .navigationBarItems(trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     }
-    .tabItem {
-      Image(systemName: "square.stack.3d.up.fill")
-      Text("Apps")
-    }
   }
 }
 

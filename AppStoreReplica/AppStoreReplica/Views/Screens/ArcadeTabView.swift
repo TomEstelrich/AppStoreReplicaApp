@@ -14,10 +14,6 @@ struct ArcadeTabView: View {
       TermsAndConditionsBlock()
     }
     .edgesIgnoringSafeArea(.top)
-    .tabItem {
-      Image(systemName: "gamecontroller.fill")
-      Text("Arcade")
-    }
   }
 }
 

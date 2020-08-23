@@ -19,10 +19,6 @@ struct SearchTabView: View {
       .navigationBarItems(leading: SearchBar(text: $text), trailing: AccountButton(isAccountViewPresented: $isAccountViewPresented))
     }
     .navigationViewStyle(StackNavigationViewStyle())
-    .tabItem {
-      Image(systemName: "magnifyingglass")
-      Text("Search")
-    }
   }
 }
 

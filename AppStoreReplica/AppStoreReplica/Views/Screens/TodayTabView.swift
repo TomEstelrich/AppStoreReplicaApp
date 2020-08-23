@@ -11,10 +11,6 @@ struct TodayTabView: View {
         AppCarouselExtraLargeBlock()
       }
     }
-    .tabItem {
-      Image(systemName: "note")
-      Text("Today")
-    }
   }
   
   
