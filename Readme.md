@@ -5,6 +5,7 @@
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg?longCache=true&style=flat&logo=swift)][Swift]
 [![iOS](https://img.shields.io/badge/iOS-14.0+-lightgrey.svg?longCache=true&?style=flat&logo=apple)][iOS]
 [![](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat&logo=twitter&logoColor=white)][Twitter]
+[![](https://img.shields.io/badge/Mastodon-5A46DA.svg?&style=flat&logo=mastodon&logoColor=white)][Mastodon]
 
 
 
@@ -45,3 +46,4 @@ Those are the most relevant screenshots of the app.
 [Swift]: https://www.swift.org
 [iOS]: https://developer.apple.com/ios/
 [Twitter]: https://twitter.com/TomEstelrich
+[Mastodon]: https://iosdev.space/@TomEstelrich
