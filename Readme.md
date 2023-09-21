@@ -1,11 +1,10 @@
 <!-- HEADER -->
-<img src="./Assets/AppIcon.png" width="60" align="right"/>
+<img src="./.assets/AppIcon.png" width="60" align="right"/>
 <h1>AppStore Replica App</h1>
 
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg?longCache=true&style=flat&logo=swift)][Swift]
 [![iOS](https://img.shields.io/badge/iOS-14.0+-lightgrey.svg?longCache=true&?style=flat&logo=apple)][iOS]
 [![](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat&logo=twitter&logoColor=white)][Twitter]
-[![](https://img.shields.io/badge/Mastodon-5A46DA.svg?&style=flat&logo=mastodon&logoColor=white)][Mastodon]
 
 
 
@@ -30,12 +29,12 @@ The **goal** of this project is to **put into practice the concepts learned in S
 Those are the most relevant screenshots of the app.
 
 <p align="left">
-	<img src="./Assets/AppPreview1.gif" height="500"/>
-	<img src="./Assets/Screenshot1.png" height="500"/>
-	<img src="./Assets/Screenshot2.png" height="500"/>
-	<img src="./Assets/Screenshot3.png" height="500"/>
-	<img src="./Assets/Screenshot4.png" height="500"/>
-	<img src="./Assets/Screenshot5.png" height="500"/>
+	<img src="./.assets/AppPreview1.gif" height="500"/>
+	<img src="./.assets/Screenshot1.png" height="500"/>
+	<img src="./.assets/Screenshot2.png" height="500"/>
+	<img src="./.assets/Screenshot3.png" height="500"/>
+	<img src="./.assets/Screenshot4.png" height="500"/>
+	<img src="./.assets/Screenshot5.png" height="500"/>
 </p>
 
 
@@ -46,4 +45,3 @@ Those are the most relevant screenshots of the app.
 [Swift]: https://www.swift.org
 [iOS]: https://developer.apple.com/ios/
 [Twitter]: https://twitter.com/TomEstelrich
-[Mastodon]: https://iosdev.space/@TomEstelrich
